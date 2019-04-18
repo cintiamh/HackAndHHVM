@@ -2,10 +2,10 @@
 
 Docker:
 ```
-$ docker build .
-$ docker run -p 0.0.0.0:8080:80 6da5ae3dbc78
+$ docker build --tag=hackandhhvm .
+$ docker run -p 0.0.0.0:8080:80 hackandhhvm
 $ docker ps
-$ docker stop 6da5ae3dbc78
+$ docker stop hackandhhvm
 ```
 
 1. [Typechecking](#typechecking)
